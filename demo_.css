@@ -1,0 +1,220 @@
+/* CSS Document */
+
+body{
+	background: #ccc ;
+	font-style: 16px;
+}
+.clear{
+	clear: both;
+}
+.social{
+	padding: 4px ;
+}
+.social li {
+	list-style-type: none;
+	display: inline-block;
+	float: left ;
+	width: 3rem ;
+	height: 3rem ;
+	line-height: 3rem ;
+	background: #fff ;
+	border-radius: 50%;
+	margin: 1px 2px ;
+	text-align: center;
+	font-size: 1.5rem
+}
+
+.social li a {
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+.social-button i {
+ width: 100% ;
+ height: 100% ;
+ background: none!important;
+}
+
+/* color socual*/
+    .color-social .isocial-linkedin {
+        color: #4393BB;
+    }
+    .color-social .isocial-pinterest {
+        color: #C92228;
+    }
+    .color-social .isocial-twitter {
+        color: #4099ff;
+    }
+    .color-social .isocial-facebook {
+        color: #3a5997;
+    }
+    .color-social .isocial-google-plus {
+        color: #db5a3c;
+    }
+    .color-social .isocial-youtube {
+        color: #e62117;
+    }
+    .color-social .isocial-whatsapp {
+        color: #35c452;
+    }
+
+
+    .color-social a:hover.linkedin {
+        background-color: #4393BB;
+    }
+    .color-social a:hover.pinterest{
+        background-color: #C92228;
+    }
+    .color-social a:hover.twitter{
+        background-color: #4099ff;
+    }
+    .color-social a:hover.facebook{
+        background-color: #3a5997;
+    }
+    .color-social a:hover.google{
+        background-color: #db5a3c;
+    }
+    .color-social a:hover.youtube{
+        background-color: #e62117;
+    }
+    .color-social a:hover.whatsapp{
+        background-color: #35c452;
+    }
+
+    .color-social a:hover.linkedin i,
+    .color-social a:hover.pinterest i,
+    .color-social a:hover.twitter i,
+    .color-social a:hover.facebook i,
+    .color-social a:hover.google i,
+    .color-social a:hover.youtube i,
+    .color-social a:hover.whatsapp i{
+        color: #fff ;
+    }
+
+/* bg-social */
+    .bg-social a  {
+        color: #fff;
+    }
+    .bg-social .linkedin   {
+        background-color: #4393BB;
+    }
+    .bg-social .pinterest  {
+        background-color: #C92228;
+    }
+    .bg-social .twitter  {
+        background-color: #4099ff;
+    }
+    .bg-social .facebook  {
+        background-color: #3a5997;
+    }
+    .bg-social .google  {
+        background-color: #db5a3c;
+    }
+    .bg-social .youtube  {
+        background-color: #e62117;
+    }
+    .bg-social .whatsapp  {
+        background-color: #35c452;
+    }
+
+
+    .bg-social a:hover .isocial-linkedin {
+        color: #4393BB;
+    }
+    .bg-social a:hover .isocial-pinterest {
+        color: #C92228;
+    }
+    .bg-social a:hover .isocial-twitter {
+        color: #4099ff;
+    }
+    .bg-social a:hover .isocial-facebook {
+        color: #3a5997;
+    }
+    .bg-social a:hover .isocial-google-plus {
+        color: #db5a3c;
+    }
+    .bg-social a:hover .isocial-youtube {
+        color: #e62117;
+    }
+    .bg-social a:hover .isocial-whatsapp {
+        color: #35c452;
+    }
+
+    .bg-social a:hover.linkedin,
+    .bg-social a:hover.pinterest,
+    .bg-social a:hover.twitter,
+    .bg-social a:hover.facebook,
+    .bg-social a:hover.google,
+    .bg-social a:hover.youtube,
+    .bg-social a:hover.whatsapp{
+        background: #fff ;
+    }
+
+/* bg-social-only */
+
+    .bg-social-only a  {
+        color: #ff837e;
+    }
+
+    .social.bg-social-only li {
+        background-color: #fff;
+    }
+
+    .bg-social-only a:hover.linkedin,
+    .bg-social-only a:hover.pinterest,
+    .bg-social-only a:hover.twitter,
+    .bg-social-only a:hover.facebook,
+    .bg-social-only a:hover.google,
+    .bg-social-only a:hover.youtube,
+    .bg-social-only a:hover.whatsapp{
+        background: #009c99 ;
+    }
+
+    .bg-social-only a:hover.linkedin i,
+    .bg-social-only a:hover.pinterest i,
+    .bg-social-only a:hover.twitter i,
+    .bg-social-only a:hover.facebook i,
+    .bg-social-only a:hover.google i,
+    .bg-social-only a:hover.youtube i,
+    .bg-social-only a:hover.whatsapp i{
+        color: #eee ;
+    }
+
+/* bg-social-opacity */
+    .bg-social-opacity a  {
+        color: #fff;
+    }
+    .bg-social-opacity .linkedin   {
+        background-color: #4393BB;
+    }
+    .bg-social-opacity .pinterest  {
+        background-color: #C92228;
+    }
+    .bg-social-opacity .twitter  {
+        background-color: #4099ff;
+    }
+    .bg-social-opacity .facebook  {
+        background-color: #3a5997;
+    }
+    .bg-social-opacity .google  {
+        background-color: #db5a3c;
+    }
+    .bg-social-opacity .youtube  {
+        background-color: #e62117;
+    }
+    .bg-social-opacity .whatsapp  {
+        background-color: #35c452;
+    }
+
+
+    .bg-social-opacity a:hover.linkedin,
+    .bg-social-opacity a:hover.pinterest,
+    .bg-social-opacity a:hover.twitter,
+    .bg-social-opacity a:hover.facebook,
+    .bg-social-opacity a:hover.google,
+    .bg-social-opacity a:hover.youtube,
+    .bg-social-opacity a:hover.whatsapp{
+        opacity: 0.6;
+    }
